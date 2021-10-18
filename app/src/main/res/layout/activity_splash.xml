@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bacg"
+    tools:context=".Splash">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="275dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:shadowColor="#12D5DD"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"
+            android:text="Music Player"
+            android:textColor="#092D3E"
+            android:textSize="50sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:text="Powered by RanaWat 🍁"
+            android:fontFamily="serif"
+            android:textColor="#F20A1C25"
+            android:layout_marginBottom="6dp"
+            android:textColorHighlight="#B0E416"
+            android:textColorLink="#EF0D0D"
+            android:textSize="19dp"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="All Rights are Reserved"
+            android:textColor="#032A2E"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textColorHighlight="#B0E416"
+            android:textColorLink="#EF0D0D"
+            android:textSize="14dp" />
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
